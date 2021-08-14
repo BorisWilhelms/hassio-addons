@@ -1,0 +1,12 @@
+{
+    "name": "Azure DNS",
+    "version": "0.1",
+    "slug": "azure_dns",
+    "description": "Updates Azure DNS",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "application",
+    "boot": "auto",
+    "options": {},
+    "schema": {}
+  }
+  
