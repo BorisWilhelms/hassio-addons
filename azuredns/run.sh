@@ -1,11 +1,12 @@
 #!/usr/bin/with-contenv bashio
+CONFIG_PATH=/data/options.json
 
-TENANT_ID=${bashio::config 'tenant-id'}
-CLIENT_ID=${bashio::config 'client-id'}
-CLIENT_SECRET=${bashio::config 'client-secret'}
-RESOURCE_GROUP=${bashio::config 'resourcegroup'}
-ZONE=${bashio::config 'zone'}
-RECORDSET=${bashio::config 'recordset'}
+TENANT_ID="$(bashio::config 'tenantid')"
+CLIENT_ID="$(bashio::config 'clientid')"
+CLIENT_SECRET="$(bashio::config 'clientsecret')"
+RESOURCE_GROUP="$(bashio::config 'resourcegroup')"
+ZONE="$(bashio::config 'zone')"
+RECORDSET="$(bashio::config 'recordset')"
 
 IP_SERVICE=https://api.ipify.org
 SLEEP_TIME=10m

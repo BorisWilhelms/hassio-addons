@@ -1,21 +1,23 @@
 {
     "name": "Azure DNS",
-    "version": "0.2",
+    "version": "0.10",
     "slug": "azure_dns",
     "description": "Updates Azure DNS",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
     "boot": "manual",
     "options": {
-      "service-principal-id": "",
-      "service-principal-secret": "",
-      "resourcegroup": "",
-      "zone": "",
-      "recordset": ""
+      "tenantid": null,
+      "clientid": null,
+      "clientsecret": null,
+      "resourcegroup": null,
+      "zone": null,
+      "recordset": null
     },
     "schema": {
-      "service-principal-id": "str",
-      "service-principal-secret": "str",
+      "tenantid": "str",
+      "clientid": "str",
+      "clientsecret": "str",
       "resourcegroup": "str",
       "zone": "str",
       "recordset": "str"
