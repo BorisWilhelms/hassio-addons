@@ -4,8 +4,9 @@
     "slug": "azure_dns",
     "description": "Updates Azure DNS",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "url": "https://blog.wille-zone.de/hassio-addons/azuredns",
     "startup": "application",
-    "boot": "manual",
+    "boot": "auto",
     "options": {
       "tenantid": null,
       "clientid": null,
