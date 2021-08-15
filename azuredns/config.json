@@ -1,6 +1,6 @@
 {
     "name": "Azure DNS",
-    "version": "0.10",
+    "version": "1.0",
     "slug": "azure_dns",
     "description": "Updates Azure DNS",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
